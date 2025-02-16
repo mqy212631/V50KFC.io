@@ -7,11 +7,11 @@ let clickCount = 0;  // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-    "？你认真的吗…", 
-    "要不再想想？", 
-    "不许选这个！ ", 
-    "我会很伤心…", 
-    "不行:("
+    "别介啊铁铁！",
+    "尊嘟假嘟？🥺",
+    "退！退！退！",
+    "我劝你善良😭",
+    "再点我要玉玉了😭 "
 ];
 
 // No 按钮点击事件
@@ -49,10 +49,9 @@ noButton.addEventListener("click", function() {
 yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
-            <h1 class="yes-text">!!!喜欢你!! ( >᎑<)♡︎ᐝ</h1>
-            <img src="images/hug.png" alt="拥抱" class="yes-image">
+            <h1 class="yes-text">!!!太带派了老铁!! ( >᎑<)♡︎ᐝ</h1>
+            <img src="images/yujie.jpg" alt="拥抱" class="yes-image">
         </div>
     `;
-
     document.body.style.overflow = "hidden";
 });
